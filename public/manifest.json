@@ -3,17 +3,17 @@
   "name": "Create React App Sample",
   "icons": [
     {
-      "src": "create.png",
+      "src": "humanitus_mini.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "create.png",
+      "src": "humanitus_mini.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "create.png",
+      "src": "humanitus_mini.png",
       "type": "image/png",
       "sizes": "512x512"
     }
