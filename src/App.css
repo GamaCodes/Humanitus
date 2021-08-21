@@ -1,49 +1,129 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-  margin-bottom: 3rem;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #FFF;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: rgb(39, 37, 37);
+.about-title {
   font-family: 'Sarpanch', sans-serif;
 }
 
-.App-link {
-  color: #F68712;
-  font-size: 1rem;
-  letter-spacing: .8rem;
-  font-weight: bold;
+.hero-contain {
+  background-image: url("./bgg.jpg");
+  background-color: #cccccc;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(-15deg);
-  }
-  to {
-    transform: rotate(15deg);
-  }
+.MuiTabs-flexContainer {
+  justify-content: center;
+  background-color: #3068BA;
+}
+
+.footer-contain {
+  background-color: #3068BA;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .5rem 2rem;
+  color: white;
+  flex-direction: column-reverse;
+}
+
+.footer-svg svg {
+  width: 40vw;
+}
+
+.hero-image svg{
+  width: 50vw;
+  height: auto;
+}
+
+.hero-title {
+  padding-top: 2rem;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+.title h2{
+  background: #F68712;
+  -webkit-transform: skew(-10deg) rotate(-10deg) translate(0, -50%);
+  transform: skew(-10deg) rotate(-10deg) translate(0, -50%);
+  padding: 1rem .5rem;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #FFF;
+  width: auto;
+  text-align: center;
+  margin-top: 8vh;
+}
+
+.about-contain {
+  width: 90vw;
+  margin: auto;
+}
+
+.about-section {
+  text-align: center;
+}
+
+.about-image {
+  width: 80%;
+}
+
+#scrollable-prevent-tabpanel-2 {
+  background-color: #3068BA;
+}
+
+#scrollable-prevent-tabpanel-1 {
+  background-color: #3068BA;
+}
+
+#scrollable-prevent-tabpanel-0 {
+  background-color: #3068BA;
+}
+
+.service-title {
+  display: flex;
+  justify-content: center;
+}
+
+.service-title h2{
+  background: #F68712;
+  -webkit-transform: skew(-10deg) rotate(-10deg) translate(0, -50%);
+  transform: skew(-10deg) rotate(-10deg) translate(0, -50%);
+  padding: 1rem .5rem;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #FFF;
+  width: auto;
+  text-align: center;
+  margin-top: 8vh;
 }
 
 @media (min-width: 600px) {
   .App-link {
     font-size: 2rem;
+  }
+  .footer-contain {
+    flex-direction: row;
+  }
+  .footer-svg svg {
+    width: 20vw;
+  }
+  .hero-image svg{
+    width: 20vw;
+    height: auto;
+  }
+  .about-contain {
+    width: 60vw;
+  }
+  .about-image {
+    width: 50%;
   }
 }

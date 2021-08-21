@@ -1,14 +1,15 @@
 import "./App.css";
+import Home from "./pages/Home";
+import theme from "./Theme";
+import { ThemeProvider } from "@material-ui/core/styles";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p className="App-link">HUMANITUS</p>
-        <img src="/humanitus_logotipo.svg" className="App-logo" alt="logo" />
-        <p>Sitio en construcción</p>
-      </header>
-    </div>
+    <>
+      <ThemeProvider theme={theme}>
+        <Home />
+      </ThemeProvider>
+    </>
   );
 }
 
